@@ -1,0 +1,233 @@
+/* CSS reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Bar */
+#navbar{
+    margin: 0%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    /* display: block; */
+    /* justify-content: center; */
+}
+#navbar ul{
+    
+    display: flex;
+    margin: 20px;
+    list-style: none;
+
+
+    /* padding: 30px 50px; */
+}
+#navbar ul li a{
+    display: block;
+    padding: 0px 20px;
+    text-decoration: none;
+    font-family:  'Ubuntu', sans-serif;
+    font-size: 25px;
+    color: white;
+    /* border-radius: 30px; */
+    
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+    /* border: black; */
+    margin: auto;
+    border-radius: 10px;
+
+}
+#navbar::before{
+    margin: 0%;
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 81%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+
+}
+
+
+/* Logo  */
+#logo img{
+    height: 54px;
+    border-radius: 60px;
+    width: 57px;
+
+}
+#logo{
+    margin: 10px;
+}
+
+/* Home Section */
+#home{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 3px 200px;
+    height: 100%;
+
+    align-items: center;
+}
+#home::before{
+    margin: 0%;
+    content: "";
+    background:url("../food-wallpaper-2008021921343.webp") no-repeat center center/cover;
+    position: absolute;
+    height: 90%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+/* Utility class */
+.h-primary{
+ font-family:  'Ubuntu', sans-serif;
+color: rgb(19, 17, 17);
+    margin-top: 170px ;
+    font-size: 2.8rem;
+}
+#home p{
+/* margin:20px ; */
+font-family:'Ubuntu', sans-serif ;
+color: white;
+}
+.btn{
+    padding: 4px 20px;
+    background-color: grey;font-family: 'Ubuntu', sans-serif;
+    border: white;
+    border-radius: 20px;
+    margin: 17px;
+    font-size: 1em;
+    cursor: pointer;
+    
+}
+
+/* Services section */
+.services-container h1{
+
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+/* margin-top: 15; */
+}
+.box img{
+    height: 60%;
+    width: 64%;
+    border-radius: 100%;
+    /* padding: 30px; */
+    
+}
+.box{
+    border: 2px solid rgb(228, 146, 146);
+    padding:  3px 30px;
+    border-radius: 40px;
+    margin: 6px;
+    background-color: aliceblue;
+}
+#services{
+    /* border: 2px  solid black; */
+    display: flex;
+    text-align: center;
+    
+}
+h2{
+     font-family:  'Ubuntu', sans-serif;
+    ;
+}
+/* Client Section  */
+ 
+ h1{
+    margin-top: 20px;
+ font-family:  'Ubuntu', sans-serif;
+
+    text-align: center;
+    font-size: 2.8rem;
+ }
+  /* #clients{
+    background: url('../069-client\ background_compressed.png'); 
+  } */
+     #clients::before{
+        margin:0%;
+        content: "";
+        position: absolute;
+        height: 60%;
+        width: 100%;
+        background: url('../069-client\ background_compressed.png');
+        z-index: -1;
+        opacity: 0.4;
+    } 
+  .client-item img{
+    margin: 2px 55px;
+    height: 100%;
+    width: 64%;
+    border-radius: 100%
+    
+   
+ }
+ #client{
+    display: flex;
+    /* padding: 150px; */
+    
+ } 
+ .h-primary-center{
+    /* margin-bottom: 13px; */
+ }
+
+ /* Contact section */
+  #contact h1{
+    margin: 18px;
+ }
+ #contact::before{
+    margin: 0%;
+    content: "";
+    position: absolute;
+    background: url('../CONTACT-BANNER-1920x852-1.webp') no-repeat center center/cover;
+    height: 70%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+ }
+.form-group{
+    margin: 10px;
+}
+#contact-box{
+    margin: 30px;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+#contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+    text-align: center;
+    justify-content: center;
+}
+#contact-form{
+    width: 40%;
+}
+
+
+ footer{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    
+ }
+ .center img{
+    height: 25px;
+    width: 25px;
+    border-radius: 20px;
+
+ }
+
+ 
+ .center{
+    text-align: center;
+ }
